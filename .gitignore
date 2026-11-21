@@ -1,0 +1,35 @@
+# Default-deny customer-level and upstream CSV files
+*.csv
+*.csv.gz
+*.xlsx
+*.xls
+*.parquet
+*.duckdb
+*.db
+*.sqlite
+*.gz
+*.zip
+*.pkl
+*.joblib
+*.hyper
+# Allow ONLY reviewed, aggregated export files in this controlled directory
+!tableau/data/*.csv
+# Local results and sensitive customer-level predictions
+**/results/
+**/07_analysis_model_data.csv
+**/08_test_predictions_LOCAL_ONLY.csv
+**/customer_purchase_features.csv
+**/purchases.csv*
+**/uplift_train.csv*
+**/clients.csv*
+**/private/
+**/raw/
+# Notebook/runtime/cache and local secrets
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
