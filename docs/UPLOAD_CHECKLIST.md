@@ -8,9 +8,10 @@
 - [x] STEP 13 D04 transform checked with real STEP 9 summary inputs; Korean label field aligned with Tableau extract schema
 - [x] Python code syntax checks, `.gitignore`, raw-source exclusion, and repository file scan
 - [ ] **Tableau Desktop or Tableau Public open-test:** visually inspect all four scenes, interactive Target Reach and embedded extracts
-- [ ] **GitHub repository created** at `HUN-2/X5-RetailHero-Uplift`
-- [ ] **Files published** (not the ZIP itself) and repository confirmed public after review
-- [ ] **README links verified** on public GitHub
+- [x] **Private GitHub repository created** at `HUN-2/X5-RetailHero-Uplift`
+- [x] **37 individual project files committed to `main`** (not the ZIP itself); verified against final prepared ZIP
+- [ ] **Repository visibility changed to Public** after Tableau application-level privacy checks
+- [x] **README and referenced repository paths verified** in the private GitHub repository
 - [ ] Optional: Tableau Public URL added to README after publishing workbook there
 
 Do not publish unverified original customer-level data or screenshots with private paths. The end-to-end pipeline has not been independently rerun from original raw data in this package.
