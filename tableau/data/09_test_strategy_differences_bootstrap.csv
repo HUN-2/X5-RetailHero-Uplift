@@ -1,0 +1,4 @@
+﻿strategy_A,strategy_B,top_fraction,selected_customers_each,uplift_diff_A_minus_B_pp,bootstrap_ci_lower_pp,bootstrap_ci_upper_pp,estimated_extra_diff_A_minus_B,bootstrap_extra_ci_lower,bootstrap_extra_ci_upper,bootstrap_positive_fraction,bootstrap_iterations
+uplift_t_learner,purchase_propensity,0.20000000,7992,5.55027488,3.36929547,8.14657712,443.57796842,269.27409415,651.07444356,1.00000000,600
+uplift_t_learner,point_rate_rule,0.20000000,7992,1.92959260,-0.55574848,4.54741283,154.21304035,-44.41541835,363.42923309,0.94000000,600
+point_rate_rule,purchase_propensity,0.20000000,7992,3.62068228,1.21529086,6.07330962,289.36492807,97.12604552,485.37890490,0.99833333,600

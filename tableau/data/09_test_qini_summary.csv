@@ -1,0 +1,4 @@
+﻿strategy,qini_gain_all_test,area_above_random_baseline
+purchase_propensity,663.67248624,-58.79548757
+point_rate_rule,663.67248624,46.25257990
+uplift_t_learner,663.67248624,115.85421792

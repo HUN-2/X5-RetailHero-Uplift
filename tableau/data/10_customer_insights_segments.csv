@@ -1,0 +1,6 @@
+﻿segment_order,segment_label_en,segment_label_ko,customer_count,control_customers,control_purchases,sms_customers,sms_purchases,avg_transaction_count,control_cvr_pct,sms_cvr_pct,observed_lift_pp,adjusted_lift_pp,adjusted_ci_lower_pp,adjusted_ci_upper_pp,analysis_population
+1,Never used,0% (미사용),78084,39192,19682,38892,20734,12.32,50.2194,53.3117,3.0923,2.89,2.25,3.53,Exploratory full cohort (N=199794)
+2,0–5%,0~5%,30815,15351,12955,15464,13259,40.09,84.3919,85.7411,1.3492,1.29,0.52,2.05,Exploratory full cohort (N=199794)
+3,5–10%,5~10%,42277,21100,14622,21177,15366,25.03,69.2986,72.5599,3.2613,3.03,2.21,3.85,Exploratory full cohort (N=199794)
+4,10–20%,10~20%,33666,16813,9794,16853,10453,17.85,58.2525,62.0246,3.7720,4.09,3.12,5.06,Exploratory full cohort (N=199794)
+5,Over 20%,20% 초과,14952,7494,3263,7458,3758,11.13,43.5415,50.3888,6.8473,6.95,5.47,8.43,Exploratory full cohort (N=199794)

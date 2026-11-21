@@ -1,0 +1,4 @@
+﻿comparison_en,comparison_ko,difference_pp,ci_lower_pp,ci_upper_pp,ci_width_pp,comparison_order,ci_includes_zero,target_fraction,test_customers,selected_customers,ci_method
+T-Learner vs Purchase Propensity,T-Learner vs 구매확률 기준,5.55,3.369,8.147,4.778,1,No,0.2,39959,7992,paired bootstrap 95% CI
+T-Learner vs Point Usage Rule,T-Learner vs 포인트 사용률 규칙,1.93,-0.556,4.547,5.103,2,Yes,0.2,39959,7992,paired bootstrap 95% CI
+Point Usage Rule vs Purchase Propensity,포인트 사용률 규칙 vs 구매확률 기준,3.621,1.215,6.073,4.858,3,No,0.2,39959,7992,paired bootstrap 95% CI

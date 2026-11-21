@@ -1,0 +1,4 @@
+﻿strategy_en,qini_area_above_random,strategy_order,test_customers,note
+T-Learner,115.85,1,39959,Qini curve area above random baseline; internal test
+Point Usage Rule,46.25,2,39959,Qini curve area above random baseline; internal test
+Purchase Propensity,-58.8,3,39959,Qini curve area above random baseline; internal test
