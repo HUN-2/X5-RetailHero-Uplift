@@ -22,4 +22,4 @@ The local Python and SQL code can be reviewed and the supplied aggregate CSVs cr
 
 ## Publication state
 
-Prepared locally only. Connected GitHub account `HUN-2` had no accessible repositories and `HUN-2/X5-RetailHero-Uplift` did not yet exist when checked. The package has **not** been uploaded or made public on GitHub.
+Uploaded to the `main` branch of the **private** GitHub repository [`HUN-2/X5-RetailHero-Uplift`](https://github.com/HUN-2/X5-RetailHero-Uplift) on 2026-11-22. Repository tree and all 37 file contents were checked against the final ZIP using a matching Git tree SHA (`50205736cdca94db53cc75351bdebb45be77b5e6`). A missing `.gitignore` was added via a separate commit. **The repository has not been made public.** Tableau Desktop/Public application-level open/privacy checks remain before changing visibility.
