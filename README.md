@@ -6,6 +6,10 @@ X5 RetailHero | CRM uplift modeling and targeting strategy | Personal data analy
 **[▶ Explore the interactive Tableau Story](https://public.tableau.com/app/profile/sanghun.kim7566/viz/WhoShouldWePersuadeCRMUpliftAnalysis/S01_CRM_Targeting_Story)**  
 [View analysis code and documentation](https://github.com/HUN-2/X5-RetailHero-Uplift/tree/main/analysis) · [Download the packaged Tableau workbook](tableau/workbook/Who_Should_We_Persuade_public.twbx)
 
+[![D03 Targeting Performance dashboard preview: uplift strategy comparison at 20 percent target reach](figures/targeting_performance.png)](https://public.tableau.com/app/profile/sanghun.kim7566/viz/WhoShouldWePersuadeCRMUpliftAnalysis/S01_CRM_Targeting_Story)
+
+*Dashboard preview — D03 Targeting Performance, Target Reach 20%. Click the image to open the interactive four-scene Tableau Story. Figures show observed SMS–control rate differences and scenario-based estimates, not verified causal conversions.*
+
 > **Decision in brief:** Targeting customers solely by predicted purchase probability may miss customers with larger *observed differences* between SMS-treated and untreated purchase rates. On the internal test set, a T-Learner ranked candidate customers more effectively than a propensity baseline at a fixed 20% reach. This is evidence for an **online randomized pilot**, not proof of incremental sales or ROI.
 
 ## 1. Business question
@@ -64,7 +68,7 @@ tableau/
     Who_Should_We_Persuade_public.twbx
 scripts/
   verify_public_results.py   # Public aggregate-result QA
-figures/                     # Optional dashboard screenshots
+figures/                     # README dashboard preview (D03)
 docs/                        # Methods, reproducibility, publication checklist
 requirements.txt             # Python dependencies
 .gitignore                   # Raw data and customer-level files excluded
