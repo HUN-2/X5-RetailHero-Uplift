@@ -3,6 +3,9 @@
 **Loyalty Point Usage and Heterogeneous Marketing Effects**  
 X5 RetailHero | CRM uplift modeling and targeting strategy | Personal data analytics portfolio
 
+**[▶ Explore the interactive Tableau Story](https://public.tableau.com/app/profile/sanghun.kim7566/viz/WhoShouldWePersuadeCRMUpliftAnalysis/S01_CRM_Targeting_Story)**  
+[View analysis code and documentation](https://github.com/HUN-2/X5-RetailHero-Uplift/tree/main/analysis) · [Download the packaged Tableau workbook](tableau/workbook/Who_Should_We_Persuade_public.twbx)
+
 > **Decision in brief:** Targeting customers solely by predicted purchase probability may miss customers with larger *observed differences* between SMS-treated and untreated purchase rates. On the internal test set, a T-Learner ranked candidate customers more effectively than a propensity baseline at a fixed 20% reach. This is evidence for an **online randomized pilot**, not proof of incremental sales or ROI.
 
 ## 1. Business question
@@ -45,7 +48,7 @@ At the same reach, T-Learner minus propensity was **+5.55 pp** (paired bootstrap
 3. Targeting Performance — three policies, reach-dependent metrics
 4. Business Decision — paired bootstrap comparisons, Qini, pilot proposal
 
-Open [`tableau/workbook/Who_Should_We_Persuade_public.twbx`](tableau/workbook/Who_Should_We_Persuade_public.twbx) in Tableau. It includes four packaged aggregate Hyper extracts. The public copy removes local computer directory paths from workbook metadata; **open-test it in Tableau Desktop/Public before publishing it to Tableau Public or sharing broadly**.
+**[Open the published interactive Story on Tableau Public](https://public.tableau.com/app/profile/sanghun.kim7566/viz/WhoShouldWePersuadeCRMUpliftAnalysis/S01_CRM_Targeting_Story)** to explore the four scenes and adjust the *Target Reach* control. The [packaged Tableau workbook](tableau/workbook/Who_Should_We_Persuade_public.twbx) is also available for reproducibility and includes four aggregate Hyper extracts. The workbook copy removes local computer directory paths from its metadata. The published web view was supplied by the author; independently inspecting all interactive web behavior and the complete embedded extract rows remains outside this repository-level QA.
 
 ## 5. Reproducibility and repository layout
 
